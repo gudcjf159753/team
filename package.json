@@ -1,0 +1,19 @@
+{
+  "name": "financial-certificate-automation-poc",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "pdfjs-dist": "^5.4.296",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  }
+}
